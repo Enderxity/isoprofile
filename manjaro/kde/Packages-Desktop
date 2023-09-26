@@ -83,10 +83,6 @@ packagekit-qt5
 #pamac-qt
 #manjaro-application-utility
 
-## Printing
->extra manjaro-printer
->extra gtk3-print-backends
-
 ## Optional dependencies for hplip
 >extra python-pillow
 >extra python-pip
@@ -113,7 +109,6 @@ kscreen
 kscreenlocker
 ksshaskpass
 ksysguard
-kwallet-pam
 kwayland-integration
 kwin
 qt5-virtualkeyboard  # Virtual keyboard support for kwin-wayland
@@ -149,28 +144,18 @@ ark
 dolphin
 dolphin-plugins
 >extra filelight
-kate
-kcalc
->extra keditbookmarks
 kfind
-kdeconnect
 okular
-#>extra >x86_64 kget
-#>extra >x86_64 libktorrent
-#>extra >i686 kdenetwork-kget
 kdenetwork-filesharing
-#>extra kdenlive
-khelpcenter
 khotkeys
 kinit # for "Open in Terminal" action
+kio-admin
 kio-extras
 #>extra kleopatra
 konsole
 ksystemlog
-kwalletmanager
 gwenview
 partitionmanager
->extra print-manager
 >extra skanlite
 spectacle
 
@@ -201,7 +186,6 @@ sshfs  # remote filesystem browser
 #>extra dvdauthor        # for creation of DVD
 #>extra dvgrab           # for firewire capture
 #>extra recordmydesktop  # for screen capture
-#>extra vlc-nightly     # for DVD preview, needs xine-ui or vlc, vlc is in "Applications" section
 #>extra movit            # for GPU video processing
 
 ## Optional dependencies for okular
@@ -210,26 +194,18 @@ poppler-data  # encoding data to display PDF documents containing CJK characters
 ## Applications
 >extra elisa
 dmidecode # for inxi -m output
-firefox
 htop
 inxi
 #>extra krita
-#ms-office-online
-#>extra onlyoffice-desktopeditors
-#>extra freeoffice
-#>extra libreoffice-still
 manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
 plasma-systemmonitor
 powertop
-#>extra qbittorrent
 neofetch
 systemd-kcm
 plymouth-kcm
-#>extra thunderbird
->extra vlc
 yakuake
 
 ## Documentation
